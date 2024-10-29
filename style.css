@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+body{
+    background-color: #f7f4f7;
+}
+.main-container{
+    width: 35%;
+    margin: 50px auto;
+    padding: 20px 0px;
+    text-align: center;
+    background-color: rgb(240,240,240);
+    border-radius: 10px;
+}
+.main-container h1{
+    color: #8f659a;
+    padding: 5px 0px;
+}
+.main-container .amount-Container{
+    width: 50%;
+    margin: 0px auto;
+    padding: 5px;
+    border-radius: 10px;
+    color: #f7f4f7;
+    background-color: #42224a;
+}
+.main-container .amount-Container p:first-child{
+    font-size: 0.7rem;
+}
+.main-container .amount-Container p:last-child{
+    font-size: 2rem;
+    font-weight: bold;
+}
+.main-container .expense-Container{
+    width: 85%;
+    margin: 20px auto;
+    padding: 10px 0px;
+    border-radius: 10px;
+    background-color: #f7f4f7;
+}
+.expense-Container .categoryContainer, .amountContainer, .dateContainer{
+    width: 80%;
+    margin: 5px auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* border: 1px solid orangered; */
+}
+.expense-Container .categoryContainer select{
+    width: 200px;
+}
+.expense-Container .amountContainer label{
+    margin: 0px 6px;
+}
+.expense-Container .amountContainer input{
+    width: 200px;
+}
+.expense-Container .dateContainer label{
+    margin: 0px 18px;
+}
+.expense-Container .dateContainer input{
+    width: 200px;
+}
+.expense-Container button{
+    padding: 5px;
+    font-size: 1rem;
+    margin: 10px 0px;
+    cursor: pointer;
+    color: #f7f4f7;
+    background-color: #8f659a;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+.main-container .expense-list{
+    width: 90%;
+    margin: 0px auto;
+    background-color: #f7f4f7;
+    border-radius: 10px;
+}
+.main-container .expense-list h2{
+    color: #8f659a;
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+.main-container .expense-list table{
+    width: 100%;
+    margin: 0px auto;
+}
+#expense-table-body tr th{
+   font-weight: 300;
+   font-size: 2rem;
+}
+.delete-btn{
+    padding: 5px 10px;
+    background-color: #f44336;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
